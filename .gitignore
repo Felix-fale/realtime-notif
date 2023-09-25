@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 ./client/node_modules
+./socket/node_modules
 
 # Editor directories and files
 .vscode/*

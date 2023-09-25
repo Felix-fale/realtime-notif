@@ -40,10 +40,9 @@ const Navbar = ({ socket }) => {
       <div className="icons">
         <div className="icon" onClick={() => setOpen(!open)}>
           <img src={Notification} className="iconImg" alt="" />
-          {
-notifications.length >0 &&
+          {notifications.length > 0 && (
             <div className="counter">{notifications.length}</div>
-          }
+          )}
         </div>
         <div className="icon" onClick={() => setOpen(!open)}>
           <img src={Message} className="iconImg" alt="" />
